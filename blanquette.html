@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blanquette de Veau - Recette traditionnelle française</title>
+    <style>
+        /* Reset et styles de base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f5f0;
+            padding: 0;
+            margin: 0;
+        }
+        
+        /* En-tête */
+        header {
+            background-color: #8b6b4a;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+            background: linear-gradient(to right, #8b6b4a, #b99b7b);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+        
+        .subtitle {
+            font-style: italic;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .nutri-score {
+            display: inline-block;
+            background-color: white;
+            color: #333;
+            padding: 0.3rem 1rem;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 1rem;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Conteneur principal */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        /* Section de présentation */
+        .recipe-presentation {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .recipe-image {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .recipe-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border: 1px solid #d4c5b2;
+        }
+        
+        .recipe-description {
+            flex: 1;
+            min-width: 300px;
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            border-top: 3px solid #b99b7b;
+        }
+        
+        /* Section ingrédients */
+        .ingredients-section {
+            margin-bottom: 2rem;
+        }
+        
+        .ingredients-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .ingredient-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+            border-top: 2px solid #d4c5b2;
+        }
+        
+        .ingredient-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .ingredient-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .ingredient-info {
+            padding: 1rem;
+        }
+        
+        .ingredient-name {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: #8b6b4a;
+            font-family: 'Georgia', serif;
+        }
+        
+        /* Section préparation */
+        .preparation-section {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+            border-left: 3px solid #b99b7b;
+        }
+        
+        .steps-list {
+            list-style-position: inside;
+            margin-top: 1rem;
+        }
+        
+        .steps-list li {
+            margin-bottom: 1rem;
+            padding-left: 0.5rem;
+        }
+        
+        /* Section conseils */
+        .tips-section {
+            background-color: #f5efe7;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            border: 1px dashed #b99b7b;
+        }
+        
+        /* Pied de page */
+        footer {
+            background: linear-gradient(to right, #8b6b4a, #b99b7b);
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .recipe-presentation {
+                flex-direction: column;
+            }
+            
+            .ingredients-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <h1>Blanquette de Veau</h1>
+        <p class="subtitle">Un classique de la cuisine française</p>
+      
+    </header>
+    
+    <div class="container">
+        <!-- Présentation de la recette -->
+        <section class="recipe-presentation">
+            <div class="recipe-image">
+                <img src="https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Blanquette de veau">
+            </div>
+            <div class="recipe-description">
+                <h2>La Blanquette de Veau</h2>
+                <p>La blanquette de veau est un plat traditionnel français à base de viande de veau mijotée avec des légumes, servie avec une sauce onctueuse à la crème et au citron. Son nom vient de la couleur blanche de la viande non roussie et de sa sauce.</p>
+                <p>Ce plat réconfortant, souvent considéré comme un plat familial par excellence, se prépare avec des morceaux nobles comme la poitrine ou l'épaule de veau.</p>
+            </div>
+        </section>
+        
+        <!-- Ingrédients -->
+        <section class="ingredients-section">
+          
+        </section>
+        
+        <!-- Préparation -->
+        <section class="preparation-section">
+            <h2>Préparation</h2>
+            <ol class="steps-list">
+                <li><strong>Préparation des ingrédients :</strong> Coupez la viande en gros cubes. Épluchez et lavez les carottes, coupez-les en rondelles. Émincez les poireaux (le blanc et un peu de vert) et les oignons. Nettoyez les champignons.</li>
+                <li><strong>Blanchir la viande :</strong> Dans une grande casserole, couvrez la viande d'eau froide. Portez à ébullition et laissez bouillir 5 minutes. Égouttez et rincez la viande à l'eau froide. Cette étape permet d'éliminer les impuretés.</li>
+                <li><strong>Cuisson :</strong> Remettez la viande dans la casserole propre avec les carottes, poireaux, oignons, un bouquet garni, du sel et du poivre. Couvrez d'eau à hauteur et portez à ébullition. Baissez le feu et laissez mijoter à couvert pendant 1h30.</li>
+                <li><strong>Ajout des champignons :</strong> Après 1h de cuisson, ajoutez les champignons entiers ou coupés en deux selon leur taille.</li>
+                <li><strong>Préparation de la sauce :</strong> Dans une casserole, faites fondre 50g de beurre. Ajoutez 50g de farine et mélangez pour obtenir un roux blanc. Ajoutez progressivement 50cl du bouillon de cuisson filtré en fouettant pour éviter les grumeaux. Laissez épaissir à feu doux.</li>
+                <li><strong>Finition :</strong> Incorporez la crème fraîche et un jaune d'œuf à la sauce hors du feu. Ajoutez le jus d'un demi-citron. Rectifiez l'assaisonnement si nécessaire. Incorporez délicatement la viande et les légumes à la sauce.</li>
+                <li><strong>Service :</strong> Servez bien chaud accompagné de riz basmati ou de pommes vapeur, avec un peu de persil haché pour la décoration.</li>
+            </ol>
+        </section>
+        
+      
+    
+    <!-- Pied de page -->
+    <footer>
+        <p>© 2025 Recette de la Blanquette de Veau - Tous droits réservés</p>
+        <p>D'autres recettes traditionnelles françaises sur notre site</p>
+    </footer>
+</body>
+</html>
