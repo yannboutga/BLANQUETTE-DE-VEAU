@@ -1,0 +1,93 @@
+[
+    {
+      "code_barres": "3564707117678",
+      "nom": "Carottes",
+      "nutriscore": "UNKNOWN",
+      "nutriscore_score": "Inconnu",
+      "image_url": "https://images.openfoodfacts.net/images/products/356/470/711/7678/front_fr.4.400.jpg"
+    },
+    {
+      "code_barres": "3564707117524",
+      "nom": "Oignons",
+      "nutriscore": "UNKNOWN",
+      "nutriscore_score": "Inconnu",
+      "image_url": "https://images.openfoodfacts.net/images/products/356/470/711/7524/front_fr.6.400.jpg"
+    },
+    {
+      "code_barres": "3451790439506",
+      "nom": "Crème fraîche",
+      "nutriscore": "D",
+      "nutriscore_score": 13,
+      "image_url": "https://images.openfoodfacts.net/images/products/345/179/043/9506/front_fr.127.400.jpg"
+    },
+    {
+      "code_barres": "3068110801235",
+      "nom": "Farine de blé",
+      "nutriscore": "A",
+      "nutriscore_score": -1,
+      "image_url": "https://images.openfoodfacts.net/images/products/306/811/080/1235/front_fr.125.400.jpg"
+    },
+    {
+      "code_barres": "3166296550371",
+      "nom": "Poivre Noir",
+      "nutriscore": "NOT-APPLICABLE",
+      "nutriscore_score": "Inconnu",
+      "image_url": "https://images.openfoodfacts.net/images/products/316/629/655/0371/front_fr.13.400.jpg"
+    },
+    {
+      "code_barres": "3183280000728",
+      "nom": "Sel Moulu de Méditerranée",
+      "nutriscore": "NOT-APPLICABLE",
+      "nutriscore_score": "Inconnu",
+      "image_url": "https://images.openfoodfacts.net/images/products/318/328/000/0728/front_fr.100.400.jpg"
+    },
+    {
+      "code_barres": "4056489728733",
+      "nom": "Blanquette de veau",
+      "nutriscore": "UNKNOWN",
+      "nutriscore_score": "Inconnu",
+      "image_url": "https://images.openfoodfacts.net/images/products/405/648/972/8733/front_fr.9.400.jpg"
+    },
+    {
+      "code_barres": "7613035781627",
+      "nom": "Bouillon Légumes",
+      "nutriscore": "C",
+      "nutriscore_score": 4,
+      "image_url": "https://images.openfoodfacts.net/images/products/761/303/578/1627/front_en.155.400.jpg"
+    },
+    {
+      "code_barres": "3760020505912",
+      "nom": "Bouillon Cube Poule",
+      "nutriscore": "E",
+      "nutriscore_score": 20,
+      "image_url": "https://images.openfoodfacts.net/images/products/376/002/050/5912/front_en.102.400.jpg"
+    },
+    {
+      "code_barres": "3083681099607",
+      "nom": "Champignons",
+      "nutriscore": "A",
+      "nutriscore_score": -3,
+      "image_url": "https://images.openfoodfacts.net/images/products/308/368/109/9607/front_fr.17.400.jpg"
+    },
+    {
+      "code_barres": "3523680468016",
+      "nom": "Citrons",
+      "nutriscore": "A",
+      "nutriscore_score": -5,
+      "image_url": "https://images.openfoodfacts.net/images/products/352/368/046/8016/front_fr.10.400.jpg"
+    },
+    {
+      "code_barres": "3270190021179",
+      "nom": "Oeufs",
+      "nutriscore": "A",
+      "nutriscore_score": -1,
+      "image_url": "https://images.openfoodfacts.net/images/products/327/019/002/1179/front_fr.168.400.jpg"
+    },
+    {
+      "code_barres": "9414024514275",
+      "nom": "Vin Blanc",
+      "nutriscore": "NOT-APPLICABLE",
+      "nutriscore_score": "Inconnu",
+      "image_url": "https://images.openfoodfacts.org/images/products/941/402/451/4275/front_fr.5.400.jpg"
+    }
+  ]
