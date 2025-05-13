@@ -15,11 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Image de l'ingrédient
                 const img = document.createElement('img');
                 img.src = product.image_url;
-                img.alt = product.product_name;
+                img.alt = product.nom;
 
                 // Nom de l'ingrédient
                 const name = document.createElement('h2');
-                name.textContent = product.product_name;
+                name.textContent = product.nom;
 
                 // Nutri-score
                 const nutri = document.createElement('img');
