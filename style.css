@@ -1,0 +1,47 @@
+
+#ingredient {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.ingredient-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    max-width: 300px;
+    width: 100%;
+    transition: transform 0.2s ease;
+}
+
+.ingredient-box:hover {
+    transform: scale(1.03);
+}
+
+
+.ingredient-box h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.ingredient-box img:first-of-type {
+    height: 6rem;
+    width: auto;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.ingredient-box img:last-of-type {
+    height: 3rem;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    border-radius: 8px;
+}
